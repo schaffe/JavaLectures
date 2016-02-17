@@ -1,0 +1,16 @@
+Introduction to Multithreading:
+   ☐ Computer architecture
+     ☐ Moore`s law -> number of cores
+     ☐ Process. Thread.
+   ☐ Threads in Java
+     ☐ Java memory and stack
+     ☐ java.util.Thread, Runnable
+     ☐ How to start new thread.
+   ☐ Concurrency and shared resources
+     ☐ Synchronization threads
+       ☐ Race conditions
+       ☐ Object/method level synchronization
+       ☐ wait() and notify()
+       ☐ Monitors
+       ☐ Deadlocks
+   ☐ java.util.concurrent, Executors etc.
