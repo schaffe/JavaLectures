@@ -1,16 +1,25 @@
 Introduction to Multithreading:
-   ☐ Computer architecture
-     ☐ Moore`s law -> number of cores
+   ☐ Computer architecture or why do we need multithreading?
+     ☐ $$$
+     ☐ Moore's law and number of cores
+     ☐ Threads in OS. Scheduler.
      ☐ Process. Thread.
    ☐ Threads in Java
      ☐ Java memory and stack
      ☐ java.util.Thread, Runnable
      ☐ How to start new thread.
+     ☐ Thread states
+       ☐ start()
+       ☐ join()
+       ☐ sleep(ms)
+       ☐ interrupt()/stop()
    ☐ Concurrency and shared resources
      ☐ Synchronization threads
        ☐ Race conditions
+       ☐ Critical section
+       ☐ Mutex
+       ☐ Monitors
        ☐ Object/method level synchronization
        ☐ wait() and notify()
-       ☐ Monitors
        ☐ Deadlocks
    ☐ java.util.concurrent, Executors etc.
