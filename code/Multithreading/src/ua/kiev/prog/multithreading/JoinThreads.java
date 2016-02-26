@@ -1,3 +1,5 @@
+package ua.kiev.prog.multithreading;
+
 import java.util.Scanner;
 
 /**

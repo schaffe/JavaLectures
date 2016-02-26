@@ -1,3 +1,5 @@
+package ua.kiev.prog.multithreading;
+
 /**
  * Created by dzidzoiev on 2/18/16.
  */

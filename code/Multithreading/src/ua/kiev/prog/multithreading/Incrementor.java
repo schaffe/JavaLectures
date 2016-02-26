@@ -1,3 +1,5 @@
+package ua.kiev.prog.multithreading;
+
 /**
  * Created by dzidzoiev on 2/18/16.
  */
@@ -9,7 +11,7 @@ public class Incrementor {
         Thread increment = new Thread( () -> {
             for (int i = 0; i < 50; i++) {
 //                number = number + 1;
-//                synchronized (Incrementor.class) {
+//                synchronized (ua.prog.multithreading.Incrementor.class) {
                     try {
                         Thread.sleep(1);
                     } catch (InterruptedException e) {
@@ -24,7 +26,7 @@ public class Incrementor {
 
         Thread decrement = new Thread( () -> {
             for (int i = 0; i < 50; i++) {
-//                synchronized (Incrementor.class) {
+//                synchronized (ua.prog.multithreading.Incrementor.class) {
 //                    try {
 //                        Thread.sleep(1);
 //                    } catch (InterruptedException e) {

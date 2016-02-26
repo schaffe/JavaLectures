@@ -1,4 +1,4 @@
-package legend;
+package ua.kiev.prog.multithreading.legend;
 
 /**
  * Created by dzidzoiev on 2/25/16.
