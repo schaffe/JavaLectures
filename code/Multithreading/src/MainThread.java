@@ -15,6 +15,9 @@ public class MainThread {
     }
 
     public static void main(String[] args) {
-
+        Thread thread = new Thread(  );
+        thread.destroy();
+        thread.suspend();
+        thread.stop();
     }
 }

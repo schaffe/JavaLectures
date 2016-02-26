@@ -4,7 +4,8 @@ import java.util.Scanner;
  * Created by dzidzoiev on 2/18/16.
  */
 public class JoinThreads {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException
+    {
         Scanner scanner = new Scanner(System.in);
         scanner.next();
 
